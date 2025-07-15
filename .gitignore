@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Virtual Environment
+.venv/
+env/
+ENV/
+
+# VSCode
+.vscode/
+
+# MacOS
+.DS_Store
+
+# PyCharm
+.idea/
+
+# dotenv
+.env
+.env.*
+
+# Compiled
+*.so
+*.egg-info/
+
+# Misc
+*.zip
