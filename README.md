@@ -51,6 +51,7 @@ BASE_URL=https://your.backend.api
 python main.py
 ```
 
+```bash
 📁 Структура проекта
 
 barber_project/
@@ -69,3 +70,4 @@ barber_project/
 ├── requirements.txt   # Зависимости
 ├── .gitignore
 └── README.md
+```
