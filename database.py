@@ -4,7 +4,7 @@ from decouple import config
 import requests
 
 
-BASE_URL = config('BASE_URL')
+BASE_URL = "https://barber.1master.uz/api/"
 
 
 def create_user(phone, fio, telegram_id, lang):
