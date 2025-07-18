@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import asyncio
 import logging
 from handlers.handlers import bot, dp, router
