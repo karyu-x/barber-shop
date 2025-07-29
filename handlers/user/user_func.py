@@ -302,7 +302,7 @@ async def confirmation_time_menu(bot, message, state):
             times = f"{datetime.today().date()} {clean_time}"
 
             if db.booked_time(str(user_id), times, 1):
-                await bot.send_location(chat_id=user_id, latitude=41.331411, longitude=69.252588)
+                await bot.send_location(chat_id=user_id, latitude=41.328093, longitude=69.336579)
                 await bot.send_message(chat_id=user_id, text=msg_text)
                 await bot.send_message(
                     chat_id=user_id,

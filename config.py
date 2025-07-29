@@ -6,7 +6,7 @@ from datetime import datetime, timedelta
 
 import database as db
 
-TOKEN = "7795978174:AAGKf_gTcERLyS5JgDeliiTL8_gf5nnnUuA"
+TOKEN = "7822231962:AAHP1DEX8Mcu_v5wY2K5Tz0KKgUFaFov87E"
 
 def admins():
     users = db.get_user_all()
