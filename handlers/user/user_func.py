@@ -79,7 +79,7 @@ async def menu(bot, message, state):
         await bot.send_message(chat_id=user_id, text=cf.get_text(lang, 'message_text', 'change_language'),reply_markup=kb_r.change_language(lang))
         await state.set_state(st.userst.change_language)
     elif message.text == cf.get_text(lang, "buttons", "location"):
-        await bot.send_location(chat_id=user_id, latitude=41.331411, longitude=69.252588)
+        await bot.send_location(chat_id=user_id, latitude=41.328093, longitude=69.336579)
         await bot.send_message(chat_id=user_id, text=cf.get_text(lang, 'message_text', 'location'),reply_markup=kb_r.back(lang))
         await state.set_state(st.userst.location)
     elif message.text == cf.get_text(lang, "buttons", "contactwithbarber"):
