@@ -32,7 +32,7 @@ def menu(lang):
     keyboard = ReplyKeyboardBuilder()
     keyboard.add(KeyboardButton(text=cf.get_text(lang, 'buttons', 'booking')), KeyboardButton(text=cf.get_text(lang, 'buttons', 'location')),
                  KeyboardButton(text=cf.get_text(lang, 'buttons', 'contactwithbarber')),KeyboardButton(text=cf.get_text(lang, 'buttons', 'change_language')),
-                 KeyboardButton(text=cf.get_text(lang, 'buttons', 'myorders')))
+                 KeyboardButton(text=cf.get_text(lang, 'buttons', 'myorders')), KeyboardButton(text=cf.get_text(lang, 'buttons', 'services')))
     keyboard.adjust(2)
     return keyboard.as_markup(resize_keyboard=True)
 

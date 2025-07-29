@@ -91,6 +91,8 @@ async def menu(bot, message, state):
     elif message.text == cf.get_text(lang, "buttons", "myorders"):
         await bot.send_message(chat_id=user_id, text=cf.get_text(lang, 'message_text', 'history'),reply_markup=kb_r.history(lang))
         await state.set_state(st.userst.orderhistory)
+    elif message.text == cf.get_text(lang, "buttons", "services"):
+        await bot.send_message(chat_id=user_id, text=cf.get_text(lang, "message_text", "services"))
 
 
 async def cancel_and_history(bot, message, state):

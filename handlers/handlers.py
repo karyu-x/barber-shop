@@ -15,19 +15,6 @@ bot = Bot(token=cf.TOKEN)
 dp = Dispatcher()
 router = Router()
 
-# @router.message(F.sticker)
-# async def get_sticker_id(message: Message):
-#     await message.reply(f"`{message.sticker.file_id}`")
-
-
-# @router.message()
-# async def cc(message: Message):
-#     if message.forward_from:
-#         user_id = message.forward_from.id
-#         print(f"🔄 ID пересланного пользователя: {user_id}")
-#     else:
-#         print(f"📥 Это не пересланное сообщение. Ваш ID: {message.from_user.id}")
-
 
 @router.message(F.text.startswith("/start"))
 async def start(message: Message, state: FSMContext):
